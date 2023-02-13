@@ -22,7 +22,7 @@ public class Practica01 {
         Connection con = null;
         Statement st = null;
         try {
-            String sql = "insert into ejemplo(clave, nombre, direccion, telefono) values"
+            String sql = "insert into empleados(clave, nombre, direccion, telefono) values"
                     +"('01', 'Erick','av 1','555')";
             String url = "jdbc:postgresql://localhost:5433/ejemplo";
             String pwd = "1234";
